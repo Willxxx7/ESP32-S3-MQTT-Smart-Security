@@ -1,0 +1,6 @@
+{"topic":"lab/security/esp32s3/command","payload":{"action":"led","value":true},"retain":false,"qos":0}
+{"topic":"lab/security/esp32s3/command","payload":{"action":"led","value":false},"retain":false,"qos":0}
+{"topic":"lab/security/esp32s3/command","payload":{"action":"buzzer","value":true},"retain":false,"qos":0}
+{"topic":"lab/security/esp32s3/command","payload":{"action":"buzzer","value":false},"retain":false,"qos":0}
+{"topic":"lab/security/esp32s3/command","payload":{"action":"led","value":"true"},"retain":false,"qos":0}
+{"topic":"lab/security/esp32s3/lab-retained","payload":{"state":"lesson-demo"},"retain":true,"qos":0}
