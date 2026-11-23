@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+esp32/config.py
+.env
+*.db
