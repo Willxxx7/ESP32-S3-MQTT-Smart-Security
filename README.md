@@ -44,3 +44,9 @@ See [docs/LESSON.md](docs/LESSON.md) for MQTT, validation, QoS, cybersecurity an
 
 ## Future enhancements
 PIR sensor, environmental telemetry, SQLite event log, access control, authenticated MQTT, TLS, reconnect tests and a richer dashboard.
+
+## MQTT Explorer practical
+
+MQTT Explorer is a separate desktop client for inspecting MQTT topics and publishing test messages. Start with [MQTT Explorer setup](docs/MQTT_EXPLORER_SETUP.md), then use the [learner worksheet](docs/MQTT_EXPLORER_LEARNER_WORKSHEET.md), [teacher guide](docs/MQTT_EXPLORER_TEACHER_GUIDE.md), [security lab](docs/MQTT_SECURITY.md) and [sample payloads](examples/mqtt_messages.jsonl).
+
+For a local-only test, connect MQTT Explorer to `127.0.0.1:1883` and subscribe to `lab/security/esp32s3/#`. Never retain actuator commands. The anonymous broker is for isolated demonstration only.
